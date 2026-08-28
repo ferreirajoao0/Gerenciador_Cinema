@@ -1,31 +1,31 @@
-# Gerenciador de Cinema em Java
-Sistema desenvolvido para gerenciar salas de cinema, mapear assentos em tempo real, controlar vendas de ingressos e gerar relatórios financeiros.
+#Gerenciador de Cinema em Java
+Uma aplicação desenvolvida em Java para simular a gestão de salas de cinema, mapeamento de assentos, controle de reservas e emissão de relatórios financeiros via terminal.
 
-Funcionalidades
-Gerenciamento de Salas: Cadastro de salas com dimensões personalizadas.
+📌 Funcionalidades
+Cadastro de Salas: Criação de salas com dimensões personalizadas de linhas e colunas.
 
-Mapa de Assentos: Matriz bidimensional com divisão entre assentos NORMAL e VIP.
+Mapa de Assentos: Matriz bidimensional categorizando assentos automaticamente entre NORMAL e VIP.
 
-Visualização no Terminal: Exibição do estado da sala usando [L] para livre e [X] para ocupado.
+Visualização Visual: Exibição do estado da sala no console usando [L] para livre e [X] para ocupado.
 
-Reserva de Ingressos: Conversão de coordenadas (ex: linha 'A', coluna 1) e validação de assentos ocupados.
+Reserva de Ingressos: Conversão de coordenadas (linha em letra e coluna em número) com validação contra ocupação dupla.
 
-Relatório Financeiro: Cálculo da taxa de ocupação da sala e faturamento total das vendas.
+Métricas e Financeiro: Cálculo da taxa de ocupação da sala e faturamento total acumulado das vendas.
 
-Tecnologias e Conceitos
-Linguagem: Java (JDK 17+)
+🛠️ Conceitos & Boas Práticas Aplicados
+Encapsulamento (POO): Atributos das classes protegidos e manipulados por métodos com responsabilidades bem definidas.
 
-POO: Encapsulamento, Abstração e Composição
+Matrizes Bidimensionais: Estrutura de dados utilizada para renderizar e gerenciar as coordenadas da sala em tempo real.
 
-Estrutura de Dados: Arrays e Matrizes bidimensionais
+Conversão de Dados: Manipulação da tabela ASCII para transformar entradas do tipo char em índices numéricos da matriz.
 
-Boas Práticas: Clean Code e separação de responsabilidades
+Separação de Responsabilidades: Classes organizadas para dividir as regras de negócio do cinema, da sala, do assento e do ingresso.
 
-Estrutura do Projeto
-GerenciadoCinema.java: Controle geral das salas, vendas e relatórios.
-
-Sala.java: Gestão da matriz de assentos, mapa visual e métricas.
-
-Assento.java: Estado, posição e tipo do assento.
-
-Ingresso.java: Registro da venda e associação com o cliente.
+📂 Estrutura do Projeto
+Plaintext
+src/
+└── gerenciador/cinema/
+    ├── GerenciadoCinema.java  # Controle geral das salas, vendas e relatórios
+    ├── Sala.java              # Gestão da matriz de assentos e mapa visual
+    ├── Assento.java           # Estado, posição e tipo do assento
+    └── Ingresso.java          # Registro da venda e associação com o cliente
