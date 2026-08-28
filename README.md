@@ -24,7 +24,7 @@ Uma aplicação desenvolvida em Java para simular a gestão de salas de cinema, 
 ---
 ## 📂 Estrutura do Projeto
 
-Plaintext
+```Plaintext
 src/
 └── gerenciador/cinema/
     ├── GerenciadoCinema.java  # Controle geral das salas, vendas e relatórios
