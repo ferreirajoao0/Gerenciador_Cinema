@@ -1,4 +1,4 @@
-Gerenciador de Cinema em Java
+# Gerenciador de Cinema em Java
 Sistema desenvolvido para gerenciar salas de cinema, mapear assentos em tempo real, controlar vendas de ingressos e gerar relatórios financeiros.
 
 Funcionalidades
