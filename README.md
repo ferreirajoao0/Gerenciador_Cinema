@@ -6,7 +6,7 @@ Uma aplicação desenvolvida em Java para simular a gestão de salas de cinema, 
 
 ## 📌 Funcionalidades
 
-- **Cadastro de Salas: Criação de salas com dimensões personalizadas de linhas e colunas.
+- Cadastro de Salas: Criação de salas com dimensões personalizadas de linhas e colunas.
 - **Mapa de Assentos: Matriz bidimensional categorizando assentos automaticamente entre NORMAL e VIP.
 - **Visualização Visual: Exibição do estado da sala no console usando [L] para livre e [X] para ocupado.
 - **Reserva de Ingressos: Conversão de coordenadas (linha em letra e coluna em número) com validação contra ocupação dupla.
